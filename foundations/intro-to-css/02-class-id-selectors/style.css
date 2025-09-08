@@ -17,7 +17,7 @@
 
 .fourth
 {
-    background-color: hsl(91, 90%, 60%);
+    background-color: hsl(hue, saturation, lightness);
     font-size: 24px;
     font-weight: bold;
 }
