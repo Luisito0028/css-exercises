@@ -2,14 +2,12 @@ body {
   font-family: 'Courier New', Courier, monospace;
 
   /*
-  align-items: center;
+  display: flex;
   justify-content: center;
-  display: flex;
-  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
   */
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  text-align: center;
 }
 
 img {
@@ -17,10 +15,41 @@ img {
   height: 100px;
 }
 
+
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  margin-bottom: 32px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+/* My answer:
+.title, .plant-list {
+  text-align: center;
+}
+.plant-list {
+  list-style-type: none;
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plant-list.text {
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+*/
 
 /* do not edit this footer */
 .footer {
